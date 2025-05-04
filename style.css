@@ -1,8 +1,7 @@
-.navbar{
-    font-size:1.1em;
-    border-bottom: 2px solid black;
-}
+/* Amarelo Winner: #f3c20a
 
+
+ Botão amarelo */
 .btn-light {
     background-color: #f3c20a !important;
     border-color: #f3c20a !important;
@@ -14,3 +13,8 @@
     background-color: #e1b109 !important;
     border-color: #e1b109 !important;
   }
+
+.navbar{
+    font-size:1.1em;
+    border-bottom: 2px solid black;
+}

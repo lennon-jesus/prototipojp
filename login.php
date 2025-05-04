@@ -9,14 +9,15 @@
     <title>Login - Hotel Winner</title>
   </head>
   <body>
+    <!-- Navbar própria (sem botões) -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light border-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="#"><img id="nav" alt="Hotel Winner" src="img/winner.png" height="70"></a>
         </div>
     </div>
     </nav>
-    <p> </p>
-    <div class="card" style="width: 25rem; margin: auto; margin-top: 10%">
+    <!-- Cartão login -->
+    <div class="card" style="width: 25rem; margin: auto; margin-top: 10%; font-size: 1.1em">
         <div class="card-body" style="width: 25rem;">
         <h5 class="card-title">Login</h5>
         <form>
