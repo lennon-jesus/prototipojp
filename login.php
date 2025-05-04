@@ -15,18 +15,22 @@
         </div>
     </div>
     </nav>
-    <div class="container" style="width: 50rem;">
-    <form>
-        <div class="form-group">
-            <label for="userInput">Usuário</label>
-            <input type="text" class="form-control" id="userInput" placeholder="Insira seu usuário">
-        </div>
-        <div class="form-group">
-            <label for="pwInput">Senha</label>
-            <input type="password" class="form-control" id="pwInput" placeholder="Insira sua senha">
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+    <p> </p>
+    <div class="card" style="width: 25rem; margin: auto; margin-top: 10%">
+        <div class="card-body" style="width: 25rem;">
+        <h5 class="card-title">Login</h5>
+        <form>
+            <div class="form-group mb-3">
+                <label for="userInput">Usuário</label>
+                <input type="text" class="form-control" id="userInput" placeholder="Insira seu usuário">
+            </div>
+            <div class="form-group mb-3">
+                <label for="pwInput">Senha</label>
+                <input type="password" class="form-control" id="pwInput" placeholder="Insira sua senha">
+            </div>
+            <button type="submit" class="btn btn-light">Confirmar</button>
+        </form>
+    </div>
     </div>
     </body>
 </html>
