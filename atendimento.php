@@ -130,5 +130,57 @@
         </div>
         <button type="submit" class="btn btn-light" id="btnConfirmar">Confirmar</button>
     </div>
+
+
+
+
+<!-- Página 2 -->
+
+    <form>
+    <div class="card-group" style="width: 60rem; margin: 20px">
+        <div class="card" style="width: 15rem; border-right: none;">
+            <div class="card-body" style="width: 15rem">
+                <h5 class="card-title">Agendamento</h5>
+                <div class="mb-3">
+                    <label for="checkInInput" class="form-label">Data de Check-in*</label>
+                    <input type="date" class="form-control" id="checkInInput">
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 15rem; border-left: none;">
+            <div class="card-body" style="width: 15rem">
+                <h5 class="card-title"><br></h5>
+                <div class="mb-3">
+                    <label for="checkOutInput" class="form-label">Data de Check-out*</label>
+                    <input type="date" class="form-control" id="checkOutInput">
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 15rem; border-right: none;">
+            <div class="card-body" style="width: 15rem">
+                <h5 class="card-title"><br></h5>
+                <div class="mb-3">
+                    <label for="typeRoomInput" class="form-label">Tipo de quarto*</label>
+                    <select id="typeRoomInput" class="form-select" aria-label="Tipo de qaurto">
+                        <option selected disabled>Selecione</option>
+                        <option value="1">Abc</option>
+                        <option value="2">Def</option>
+                        <option value="3">Ghi</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 15rem; border-left: none;">
+            <div class="card-body" style="width: 15rem">
+                <h5 class="card-title"><br></h5>
+                <div class="mb-3">
+                    <label for="obsRoomInput" class="form-label">Observações</label>
+                    <textarea class="form-control" id="obsRoomInput" rows="3"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+    <br><br><br>
   </body>
 </html>
