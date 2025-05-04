@@ -14,6 +14,15 @@
     border-color: #e1b109 !important;
   }
 
+#btnConfirmar {
+    position:fixed;
+    right:15px;
+    bottom:15px;
+    height:50px;
+    width:120px;
+    font-size:1.1em;
+}
+
 .navbar{
     font-size:1.1em;
     border-bottom: 2px solid black;
